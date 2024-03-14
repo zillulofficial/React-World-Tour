@@ -3,6 +3,11 @@ display: grid;
 grid-template-columns: repeat(3,1fr);
 gap: 16px;
 }
+.flag-container img{
+  width: 100px;
+  height: 60px;
+  margin-right: 16px;
+}
 
 @media screen and (max-width: 600px) {
     .country-container {
